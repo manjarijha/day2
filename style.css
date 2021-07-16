@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(7, 7, 7, 0.952);
+height: 100vh;
+} 
+.container> div
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(166, 221, 39);
+    border-radius: 0px;
+}
+
+.btn
+{
+    position: absolute;
+   top: 90%;
+}
+.btn button
+{
+   
+    padding: 17px;
+   font-size: 18px;
+   text-transform: capitalize;
+   border: none;
+   border-radius: 12px;
+   cursor: pointer;
+}
+@keyframes mj {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+  .my-animationclass
+  {
+      animation: cg 1s linear infinite;
+      transition: 0.5s;
+  }
+
+  @keyframes cg {
+      0%
+      {
+          filter: hue-rotate(0deg);
+          transform: rotate(2turn);
+          
+      }
+      100%
+      {
+ filter: hue-rotate(360deg);
+          transform: rotate(1turn);
+      }
+  } 
