@@ -58,3 +58,19 @@ height: 100vh;
           transform: rotate(1turn);
       }
   } 
+
+@media (max-width: 991px) {
+
+    .container
+    {
+        background-color: blueviolet;
+        overflow: hidden;
+    }
+ .btn
+ {
+     display: block;
+     justify-content: center;
+     align-items: center;
+     margin-left: 53px;
+ }
+}

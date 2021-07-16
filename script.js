@@ -8,7 +8,7 @@
 let stop = document.getElementById('stop').addEventListener('click', function()
 {
     document.getElementById('main').style.animation = 'mj 0s ';
-    document.getElementById('main').style.backgroundColor = 'blueviolet';
+    document.getElementById('main').style.backgroundColor = 'grey';
 })
 
 
