@@ -4,29 +4,16 @@
 //     document.getElementById('main').style.animation = ' mj 5s linear infinite' ;
 //     document.getElementById('main').style.backgroundColor = 'azure';
 // })
-  
-let stop = document.getElementById('stop').addEventListener('click', function()
-{
-    document.getElementById('main').style.animation = 'mj 0s ';
-    document.getElementById('main').style.backgroundColor = 'grey';
-})
 
-
- let color= document.getElementById('start').addEventListener('click', function()
+ document.getElementById('start').addEventListener('click', function()
  {
  document.getElementById('main').setAttribute("class","my-animationclass")
+ $("start").toggleClass("my-animationclass")
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
+document.getElementById('stop').addEventListener('click', function()
+{
+    document.getElementById('main').style.animation = "0s";
+    document.getElementById('main').style.backgroundColor = 'grey';
+})
 

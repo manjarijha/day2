@@ -1,0 +1,24 @@
+
+.class1
+
+{
+    float: left;
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    margin: 20px;
+}
+
+.class2
+
+{
+    float: left;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(209, 24, 24);
+    margin: 20px;
+}
+.on img
+{
+    display: none;
+}

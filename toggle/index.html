@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="class1" onclick="mj (this)"></div>
+    <div class="class1" onclick="mj (this)"></div>
+    <div class="class1" onclick="mj (this)"></div>
+    <div class="class1" onclick="mj (this)"></div>
+<img src="bulb-off.png"  class="off">
+<img src="bulb-on.jfif" onclick="rj (this)" class="on">
+<button class="off" onclick="rj (this)" >switch on</button>
+<button class="on" onclick=document.getElementsByClassName('on') >switch off</button>
+</body>
+</html>
+<script>
+    $(class1).toggleClass(class1)
+    function mj (el)
+    {
+        if (el.className == 'class1')
+        {
+            el.className = 'class2'
+        }
+        else
+        {
+            el.className = 'class1'
+        }
+    }
+
+</script>
